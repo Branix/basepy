@@ -6,7 +6,7 @@ Se quiser apenas executar a aplicação direta do seu repositório, faça o segu
 
 ```sh
 export APP_FOLDER=awesome
-export GIT_URL="#"
+export GIT_URL="https://github.com/Branix/basepy"
 git clone $GIT_URL $APP_FOLDER && cd $APP_FOLDER
 
 python3 -m venv venv
